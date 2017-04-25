@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>分区demo</title>
+	<script type="text/javascript">
+	//此功能没有好注释的 就是if用法
+	function queryScroe() {
+		var result=document.getElementById("score").value;
+		var res=document.getElementById("resul");
+	    var number=parseInt(result);
+	    function clear(){
+	    	document.getElementById("score").value="";
+	    	document.getElementById("score").focus();
+	    }
+	     if(!isNaN(number) && number<100){
+	     
+	     	if (number>=90) {
+	     		res.innerHTML="1等生";
+	     		
+	     	}else
+	     	if(number>=80 && number<90){
+	     		res.innerHTML="2等生";
+	     	}else
+	     	if(number>=70 && number<80){
+	     		res.innerHTML="3等生";
+	     	}else
+	     	if(number>=60 && number<70){
+	     		res.innerHTML="4等生";
+	     	}
+	     	else
+	     	if(number>=50 && number<60){
+	     		res.innerHTML="5等生";
+	     	}
+	     	else
+	     	if(number>=40 && number<50){
+	     		res.innerHTML="6等生";
+	     	}
+	     	else
+	     	if(number>=30 && number<40){
+	     		res.innerHTML="7等生";
+	     	}
+	     	else
+	     	if(number>=20 && number<30){
+	     		res.innerHTML="8等生";
+	     	}
+	     	else
+	     	if(number>=10 && number<20){
+	     		res.innerHTML="9等生";
+	     	}else
+	     	if(number>=0 && number<10){
+	     		res.innerHTML="10等生";
+	     	}
+	     	clear();
+	     }else{
+	     	res.innerHTML="请输入正确分数";
+	     }
+	}
+	</script>
+</head>
+<body>
+	<div style="height:100px;margin: 200px 100px">
+		<label for="score">请输入分数段</label>
+		<input type="text" name="grid" id="score">
+		<button onclick="queryScroe();">确定</button>
+		<span style="display: block;" id="resul"></span>
+	</div>
+</body>
+</html>

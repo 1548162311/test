@@ -1,0 +1,823 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+
+}
+a,p,ul,span,i{
+    box-sizing: border-box;
+}
+div,section{
+     display: block;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ ul {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#header {
+    padding: 0px;
+    margin: 0px;
+    height: 60px;
+    border-bottom: 1px solid #ececec;
+    background: #fff;
+}
+#header nav li:hover {
+    color: #35b558;
+    cursor: pointer;
+}
+#header nav li:hover i.arrow-icon {
+    margin-bottom: -2px;
+    border-top: 1px solid #35b558;
+    border-left: 1px solid #35b558;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    animation: rotate 1s ease normal;
+    -moz-animation: rotate 1s ease normal;
+    -webkit-animation: rotate 1s ease normal;
+}
+#header .search-icon:hover {
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/search-icon2.png) 0 0 no-repeat;
+    background-size: 17px 17px;
+    background-position: 0, 0;
+}
+#header .icon-box .app-icon:hover {
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/app-icon2.png) 0 0 no-repeat;
+    background-size: 17px;
+    background-position: 0;
+}
+.w-1000 {
+    width: 1000px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+}
+
+.logo {
+    width: 109px;
+    display: inline-block;
+    margin-right: 60px;
+    height: 60px;
+    float: left;
+}
+
+.logo img {
+    float: left;
+    width: 109px;
+    margin-top: 10px;
+    border: 0 none;
+}
+
+.logo nav {
+    height: 60px;
+    display: inline-block;
+    float: left;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif;
+}
+
+
+#header ul,p ,li,h2{
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif;
+}
+
+#header ul a {
+    text-decoration: none;
+}
+
+.arrow-icon {
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid #c1c1c1;
+    border-left: 1px solid #c1c1c1;
+    display: inline-block;
+    -webkit-transform: rotate(-135deg);
+    transform-origin: 4px 4px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+#header ul li {
+    position: relative;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    height: 60px;
+    margin-right: 50px;
+    float: left;
+}
+
+
+#header .icon-box {
+    float: right;
+    text-align: right;
+    width: 200px;
+    margin-right: 10px;
+    height: 60px;
+}
+
+#header .icon-box span {
+    height: 60px;
+    width: 17px;
+    display: inline-block;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/search-icon.png) 0 0 no-repeat;
+    background-size: 17px 17px;
+    background-position: 0, 0;
+    height: 17px;
+    width: 17px;
+    display: inline-block;
+}
+
+#header .app-icon {
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/app-icon.png) 0 0 no-repeat;
+    background-size: 17px;
+    background-position: 0;
+}
+#header .login-icon{
+	background: url(http://e.jikexueyuan.com/headerandfooter/images/login-icon.png) 0 0 no-repeat;
+	-webkit-background-size: 17px 17px;
+	background-size: 17px 17px;
+	background-position: 0;
+}
+
+.mar-t20 {
+    margin-top: 20px !important;
+}
+.w-1000 {
+    width: 1000px;
+    margin: 0 auto;
+    clear: both;
+}
+.jk-banner{
+	height: 330px;
+	width: 750px;
+	background: #f5f5f5;
+	float: left;
+	margin-right: 10px;
+}
+.jk-login{
+	float: left;
+	width: 240px;
+	height: 160px;
+	border:1px solid #e9e9e9;
+	background: #fff;
+	box-sizing: border-box;
+	padding: 26px 29px 24px;
+}
+.jk-login .userInfo {
+    height: 57px;
+}
+.jk-login img{
+	float: left;
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.jk-login .userName{
+	float: left;
+	font-size: 12px;
+	color: #555;
+	line-height: 16px;
+	height: 16px;
+	width: 108px;
+	margin-top:8px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.jk-login .userStatus{
+	float: left;
+	font-size: 12px;
+	color: #555;
+	line-height: 16px;
+	height: 16px;
+	width: 108px;
+	margin-top: 10px;
+}
+ .loginOn, .registerNow{
+    font-size: 14px;
+    float: left;
+    display: inline-block;
+    width: 85px;
+    height: 32px;
+    border:1px solid #35b558;
+    border-radius: 2px;
+    color: #35b558;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.loginOn{
+	 margin-right: 10px;
+}
+.jk-huodong{
+	float: left;
+	width: 240px;
+	height: 160px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.jk-login .loginOn:hover, .jk-login .registerNow:hover, .jk-login .myZoom:hover {
+    background: #35b558;
+    color: #fff;
+}
+
+.jk-jiuye{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.jk-jiuye .jk-ban:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,.4);
+}
+
+.jk-sku{
+    width: 1020px;
+    height: 270px;
+    margin:0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+     float: left;
+    margin-bottom: 40px;
+}
+.jk-sku ul li:hover {
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 2px 6px #ccc;
+}
+.jk-sku ul {
+    width: 100%;
+    height: 100%;
+}
+.jk-sku ul li {
+    float: left;
+    width: 235px;
+    height: 100%;
+    margin-right: 20px;
+    border: 1px solid #e9e9e9;
+    transition: box-shadow .5s;
+    -moz-transition: box-shadow .5s;
+    -webkit-transition: box-shadow .5s;
+    -o-transition: box-shadow .5s;
+}
+.jk-sku ul li a {
+    display: block;
+    height: 100%;
+}
+a{
+    border: 0 none;
+}
+.jk-sku ul li img {
+    width: 100%;
+    height: 155px;
+}
+.jk-sku ul li .skuContainer {
+    padding: 14px;
+    height: 85px;
+    position: relative;
+    background: #fff;
+}
+.jk-sku ul li .skuContainer .skuTitle {
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    color: #555;
+    line-height: 18px;
+    height: 36px
+}
+.jk-sku ul li .skuContainer .skuInfo {
+    margin-top: 6px;
+    color: #999;
+    font-size: 12px;
+    line-height: 16px;
+    height: 16px;
+}
+.jk-sku ul li .skuContainer .skuPrice {
+    float: left;
+    font-size: 18px;
+    color: #ff5c00;
+    vertical-align: bottom;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+.jk-sku ul li .skuContainer .skuThrought {
+    float: left;
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+    vertical-align: bottom;
+}
+.jk-sku ul li .skuContainer .skuNum {
+    display: inline-block;
+    height: 14px;
+    position: absolute;
+    right: 14px;
+    color: #999;
+    font-size: 12px;
+}
+
+section>ul>li:nth-child(n+2):hover {
+    boedr: 1px solid #ccc;
+    box-shadow: 0 2px 6px #ccc;
+    transition: box-shadow .5s;
+    -moz-transition: box-shadow .5s;
+    -webkit-transition: box-shadow .5s;
+    -o-transition: box-shadow .5s;
+}
+
+.jk-jiuye .jk-ban{
+    float: left;
+    width: 327px;
+    height: 70px;
+    background: #fff;
+    margin-right: 9px;
+    margin-bottom: 10px;
+    padding-left: 33px;
+    line-height: 68px;
+}
+
+.jk-jiuye .php{
+    background: url(http://s1.jikexueyuan.com/index/images/jiuye-ban01_29b9e05.jpg) no-repeat center center;
+    background-size:327px 70px;
+}
+.jk-jiuye .web{
+    background: url(http://s1.jikexueyuan.com/index/images/jiuye-ban02_0aec839.jpg) no-repeat center center;
+    background-size: 327px 70px;
+}
+
+
+
+.jk-jiuye .jk-ban:nth-child(3n){
+    margin-right: 0;
+}
+
+.jk-jiuye .ui{
+    background: url(http://s1.jikexueyuan.com/index/images/jiuye-ban03_47f0666.jpg) no-repeat center center;
+    -webkit-background-size: 327px 70px;
+    background-size: 327px 70px;
+}
+.jk-jiuye .android{
+    background: url(http://s1.jikexueyuan.com/index/images/jiuye-ban06_2402215.jpg) no-repeat center center;
+    background-size: 327px 70px;
+}
+
+.jk-jiuye .jk-ban:nth-child(n+4){
+     margin-bottom: 0;
+}
+
+.jk-jiuye .ios{
+    background: url(http://s1.jikexueyuan.com/index/images/jiuye-ban04_b84d257.jpg) no-repeat center center;
+    background-size: 327px 70px;
+}
+.jk-jiuye .javaweb{
+    background: url(http://s1.jikexueyuan.com/index/images/jiuye-ban05_9f8330c.jpg) no-repeat center center;
+    background-size: 327px 70px;
+}
+.jk-jiuye .jk-ban img{
+    width: 55px;
+    height: 55px;
+}
+.jk-jiuye .jk-ban p {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    width: 204px;
+    text-align: center;
+    margin-left: 27px;
+}
+
+.jk-college {
+    float: left;
+    width: 1000px;
+    margin: 0 auto;
+    height: 310px;
+    margin-bottom: 40px;
+}
+.jk-college h2 {
+    font-size: 18px;
+    color: #555;
+    line-height: 18px;
+    height: 18px;
+    margin-bottom: 22px;
+}
+button, h1, h2, h3, h4, h5, h6, input, select, textarea {
+    font-size: 100%;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+.jk-college ul .web {
+    width: 500px;
+    height: 270px;
+    margin-left: 0;
+}
+.jk-college ul li {
+    float: left;
+    background: #ccc;
+    width: 240px;
+    height: 130px;
+    margin-left: 10px;
+    position: relative;
+}
+.jk-college ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.jk-college ul .web img {
+    display: inline-block;
+    width: 500px;
+    height: 270px;
+}
+.jk-college ul li i {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition: opacity .8s;
+    -moz-transition: opacity .8s;
+    -webkit-transition: opacity .8s;
+    -o-transition: opacity .8s;
+}
+.jk-college ul li span {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 88px;
+}
+.jk-vip ul li:hover {
+    border: 1px solid #e1e2e1;
+    box-shadow: 0 2px 6px #ccc;
+}
+.jk-college ul li:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.jk-college ul li img {
+    display: inline-block;
+    width: 240px;
+    height: 130px;
+}
+.jk-college ul li:nth-child(3) {
+    margin-bottom: 10px;
+}
+.jk-vip .vipAll:hover {
+    background: #35b558;
+    color: #fff;
+}
+.jk-vip {
+    width: 1020px;
+    float: left;
+    margin: 0 auto;
+    height: 420px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.jk-vip h2 {
+    font-size: 18px;
+    color: #555;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 22px;
+}
+.jk-vip ul {
+    width: 100%;
+    height: 310px;
+}
+.jk-vip ul li {
+    float: left;
+    width: 158px;
+    height: 150px;
+    border: 1px solid #e9e9e9;
+    background: #fff;
+    margin-right: 10px;
+    transition: box-shadow .5s;
+    -moz-transition: box-shadow .5s;
+    -webkit-transition: box-shadow .5s;
+    -o-transition: box-shadow .5s;
+}
+.jk-vip ul li a {
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+.jk-vip ul li a img {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    margin-top: 25px;
+}
+.jk-vip ul li a p {
+    font-size: 12px;
+    color: #555;
+    height: 22px;
+    line-height: 22px;
+}
+.jk-vip ul li a span {
+    display: block;
+    font-size: 12px;
+    color: #35b558;
+    height: 22px;
+    line-height: 22px;
+}
+.jk-vip ul li:nth-child(6), .jk-vip ul li:last-child {
+    margin-right: 0;
+}
+.jk-vip ul li:nth-child(n+7) {
+    margin-top: 10px;
+}
+.jk-vip .vipAll {
+    display: inline-block;
+    margin-top: 38px;
+    height: 32px;
+    line-height: 30px;
+    border: 1px solid #35b558;
+    border-radius: 2px;
+    width: 120px;
+    font-size: 14px;
+    color: #35b558;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -60px;
+    transition: background .8s;
+    -moz-transition: background .8s;
+    -webkit-transition: background .8s;
+    -o-transition: background .8s;
+}
+.jk-story {
+    width: 1000px;
+    margin: 0 auto;
+    height: 300px;
+    margin-bottom: 40px;
+        float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.jk-story h2 {
+    font-size: 18px;
+    color: #555;
+    line-height: 18px;
+    height: 18px;
+    margin-bottom: 22px;
+}
+.jk-story .story-container {
+    width: 100%;
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+   background-color: antiquewhite;
+}
+.jk-partner ul li:hover {
+    border: 1px solid #e1e2e1;
+    box-shadow: 0 2px 6px #ccc;
+}
+.jk-partner {
+    width: 1020px;
+    margin: 0 auto;
+    float: left;
+    height: 240px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.jk-partner h2 {
+    font-size: 18px;
+    color: #555;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 22px;
+}
+.jk-partner ul li a {
+    display: block;
+    height: 100%;
+}
+.jk-partner ul li {
+    float: left;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #e9e9e9;
+    background: #fff;
+    margin-right: 20px;
+    transition: box-shadow .5s;
+    -moz-transition: box-shadow .5s;
+    -webkit-transition: box-shadow .5s;
+    -o-transition: box-shadow .5s;
+}
+.jk-partner .more-partner:hover {
+    background: #35b558;
+    color: #fff;
+}
+.jk-partner ul li:nth-child(1) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_microsoft_82f9a9a.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(2) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_tencent_47175aa.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(3) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_qcloud_ab76cc7.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(4) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_qualcomm_362a472.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(5) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_cocos_2a0a8f3.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(6) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_amd_f9f0c7f.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(n+7) {
+    margin-top: 20px;
+}
+.jk-partner ul li:nth-child(7) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_xunfei_d1cd670.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(8) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_tuling_3ec6ea2.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(9) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_tingyun_c2752df.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(10) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_juhe_25bbedf.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(11) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_bootstrap_d0a74f3.png) no-repeat center;
+}
+.jk-partner ul li:nth-child(12) a {
+    background: url(http://s1.jikexueyuan.com/index/images/p_cloudstack_6ecabb3.png) no-repeat center;
+}
+.jk-partner .more-partner {
+    display: inline-block;
+    margin-top: 38px;
+    height: 32px;
+    line-height: 30px;
+    border: 1px solid #35b558;
+    border-radius: 2px;
+    width: 120px;
+    font-size: 14px;
+    color: #35b558;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -60px;
+    transition: background .8s;
+    -moz-transition: background .8s;
+    -webkit-transition: background .8s;
+    -o-transition: background .8s;
+}
+#footer div, #footer p, #footer dd, #footer dl, #footer dt {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif;
+}
+#footer {
+    float: left;
+    min-width: 1000px;
+    border-top: 1px solid #e4e4e4;
+    background: #fff;
+}
+#footer .jkinfor-block {
+    float: left;
+    background: #fff;
+}
+#footer .jkinfor-block .jkinfor {
+    position: relative;
+    width: 1000px;
+    height: 215px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f5f5f5;
+    padding-left: 224px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.cf {
+    zoom: 1;
+}
+#footer .jkinfor-block .jkinfor .jk-logo {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    display: inline-block;
+    width: 160px;
+}
+#footer .jkinfor-block .jkinfor .jk-logo img {
+    width: 109px;
+    height: 40px;
+    display: block;
+}
+#footer .jkinfor-block .jkinfor .jk-logo p {
+    font-size: 12px;
+    color: #999;
+    margin-top: 20px;
+}
+#footer .jkinfor dl {
+    width: 135px;
+    color: #808080;
+    float: left;
+}
+#footer .jkinfor dl dt {
+    font-size: 14px;
+    line-height: 30px;
+}
+#footer .jkinfor dl dd {
+    font-size: 12px;
+    line-height: 30px;
+}
+#footer .jkinfor dl dd a {
+    color: #999999;
+}
+#footer .jk-down {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    display: inline-block;
+    width: 175px;
+    text-align: left;
+}
+#footer .jk-down .hot-tel {
+    color: #808080;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#footer .jk-down .downCon img {
+    display: inline-block;
+    width: 115px;
+    height: 153px;
+    position: absolute;
+    top: -157px;
+    left: 12px;
+    z-index: 2;
+    display: none;
+}
+#footer .copyright {
+    font-size: 12px;
+    color: #999;
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    padding: 15px 0;
+}
+#footer .copyright strong {
+    font-weight: 400;
+}
+#footer .copyright a {
+    color: #999;
+}
+#footer .copyright a.down-wechat {
+    float: right;
+    height: 15px;
+    width: 20px;
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/icon-down-wechat.png)no-repeat 0 0;
+    background-size: 18px 15px;
+}
+#footer .copyright a.down-sina {
+    float: right;
+    height: 15px;
+    width: 20px;
+    margin-right: 10px;
+    background: url(http://e.jikexueyuan.com/headerandfooter/images/icon-down-sina.png)no-repeat 0 0;
+    background-size: 20px 15px;
+}

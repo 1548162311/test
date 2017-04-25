@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>遍历的使用</title>
+	<script type="text/javascript">
+	function cal(){
+		var arr=['a','x','b','d','m','a','k','m','p','j','a'];
+		/*以第i个元素与之后的元素做比较（例如如果第0个元素和第一个元素比较如果不同 则到循环到第一个元素时无需与第一个元素比较 	 直接与第二个及其之后的元素比较即可）*/
+		var count=1;//计算第i个元素与其之后的元素比较若相同则计数（这里计数为1；是因为我拿第i个元素与之后的元素比较； 本身就有一个了）
+		var sum=1;//计算所有相同元素比较 计数的多少（这里也是同上）
+		var index=[]//用来存储最多相同元素的角标
+		var max=document.getElementById("max");
+		var total=document.getElementById("total");
+		var ind=document.getElementById("ind");
+		//此循环遍历整个数组
+		for (var i = 0;i<arr.length; i++) {	
+			count=1;//第i个元素清空
+			index=[];//	第i个元素角标清空	
+			//与之后的元素比较
+			for(var j=i+1;j<arr.length;j++){	
+				if(arr[i]==arr[j]){
+					//第一次push 需要用来比较的角标
+					if(index.length==0){
+						index.push(i);
+					}
+						index.push(j);
+
+						count++;
+				}
+
+			}
+			if(sum<count){
+				sum=count;
+				max.innerHTML="出现次数最多的字母为：    "+arr[i]+";";
+				total.innerHTML="其出现的总次数为：    "+sum+"次;";
+				ind.innerHTML="出现次数最多的这个字母每一个所在的位置分别为： "+index;
+			}
+		
+
+		}
+	}
+
+	</script>
+</head>
+<body>
+	<div style="height:100px; margin: 200px 100px">
+		<span style="display: block;">通过JavaScript代码找到给定数组[“a“，”x“，”b“，”d“，”m“，”a“，”k，“m”，“p”，“j”，“a”]中（1）出现次数最多的字母</span>
+		<button onclick="cal()">确定</button>
+		<span style="display: block;" id="max"></span>
+		<span style="display: block;" id="total"></span>
+		<span style="display: block;" id="ind"></span>
+	</div>
+	
+</body>
+</html>

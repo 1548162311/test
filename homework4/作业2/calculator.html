@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>简易计算器</title>
+	<script type="text/javascript">
+	//此方法没什么好注释的 就是switch用法
+		function cal(){
+			var n=document.getElementById("num1").value;
+			var m=document.getElementById("num2").value;
+			var myChar=document.getElementById("nChar").value;
+			var res =document.getElementById("result");
+			var num1=parseInt(n);
+			var num2=parseInt(m);;
+			if (!isNaN(num1)&&!isNaN(num2)) {
+				switch(myChar){
+					case "+":
+					res.innerHTML=num1+num2;
+					break;
+					case "-":
+					res.innerHTML=num1-num2;
+					break;
+					case "*":
+					res.innerHTML=num1*num2;
+					break;
+					case "/":
+					res.innerHTML=num1/num2;
+					break;
+				}
+			}else{
+				res.innerHTML="请输入正确格式";
+			}
+		}
+	</script>
+</head>
+<body>
+	<div  style="height:100px; margin: 200px 100px">
+		<label for="num1">请输入第一个数字</label>
+		<input type="text" name="" id="num1">
+		<label for="num2">请输入第二个数字</label>
+		<input type="text" name="" id="num2">
+		<label for="nChar">请输入运算符(仅限+,-,*,/)</label>
+		<input type="text" name="" id="nChar">
+		<button onclick="cal()">确定</button>
+		<span style="display: block;" id="result"></span>
+	</div>
+</body>
+</html>

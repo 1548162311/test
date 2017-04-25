@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="screen">
+			<div class="mainscreen">
+				<div class="show" id="shows">0</div>
+			</div>
+			<div class="functions">
+				<div class="back fun" id="backs" onclick="inputPCB(this)">后退</div>
+				<div class="clear fun" id="clears" onclick="inputPCB(this)">清除</div>
+			</div>
+			<div class="numbers">
+				<div class="main">
+					<div class="x1" id="ones" onclick="numClick(this)" >1</div>
+					<div class="x1" id="twos" onclick="numClick(this)">2</div>
+					<div class="x1" id="threes" onclick="numClick(this)">3</div>
+				</div>
+				<div class="first">
+					<div class="main">
+						<div class="x1" id="fours" onclick="numClick(this)">4</div>
+						<div class="x1" id="fives" onclick="numClick(this)">5</div>
+						<div class="x1" id="sixs" onclick="numClick(this)">6</div>
+					</div>
+				</div>
+				<div class="middle">
+					<div class="main">
+						<div class="x1" id="sevens" onclick="numClick(this)">7</div>
+						<div class="x1" id="eights" onclick="numClick(this)">8</div>
+						<div class="x1" id="nines" onclick="numClick(this)">9</div>
+					</div>
+				</div>
+				<div class="bottom">
+					<div class="main">
+						<div class="x1" id="zeros" onclick="numClick(this)">0</div>
+						<div class="x1" id="dots" onclick="dotClick(this)">.</div>
+						<div class="x1" id="panns" onclick="syClick()">-/+</div>
+					</div>
+				</div>
+			</div>
+			<div class="symbol">
+				<div class="sym" id="adds" onclick="funClick(this)">+</div>
+				<div class="sym" id="minuss" onclick="funClick(this)">-</div>
+				<div class="sym" id="multiplys" onclick="funClick(this)">*</div>
+				<div class="sym" id="divides" onclick="funClick(this)">/</div>
+				<div class="sym" id="equals" onclick="equClick(this)">=</div>
+			</div>
+		</div>
+		</div>
+		
+	
+	
+</body>
+</html>

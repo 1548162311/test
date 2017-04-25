@@ -1,0 +1,288 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.all {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    height: 50px;
+    width: 500px;
+}
+
+.l1 {
+    height: 40px;
+    width: 109px;
+    margin-left: 100px;
+    text-align: center;
+    border: 10px solid;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    border-bottom-color: transparent;
+}
+
+.l2 {
+    height: 90px;
+    width: 244px;
+    border: 10px solid;
+    border-top-left-radius: 38%;
+    border-top-right-radius: 39%;
+    margin-left: 25px;
+    margin-top: -11px;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.l3 {
+    height: 58px;
+    width: 124px;
+    border: 10px solid;
+    -webkit-transform: rotateZ(36deg);
+    margin-top: -64px;
+    margin-left: 11px;
+    border-bottom-right-radius: 48px;
+    border-top-left-radius: 9px;
+    color: black;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+
+.l4 {
+    height: 95px;
+    width: 116px;
+    border: 10px solid;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 62px;
+    margin-top: -76px;
+    margin-left: -9px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+
+.l5 {
+    height: 56px;
+    width: 124px;
+    border: 10px solid;
+    -webkit-transform: rotateZ(139deg);
+    margin-top: -112px;
+    margin-left: 164px;
+    border-bottom-left-radius: 12px;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+
+.l6 {
+    height: 17px;
+    width: 36px;
+    border: 10px solid;
+    margin-top: -29px;
+    margin-left: 45px;
+    border-radius: 15px;
+}
+
+.l7 {
+    height: 17px;
+    width: 36px;
+    border: 10px solid;
+    margin-top: -38px;
+    margin-left: 229px;
+    border-radius: 15px;
+}
+
+.l8 {
+    height: 41px;
+    width: 139px;
+    border: 10px solid;
+    margin-top: -115px;
+    margin-left: 83px;
+    border-radius: 15px;
+    border-top-left-radius: 63px;
+    border-top-right-radius: 63px;
+}
+
+@-webkit-keyframes showArrow {
+     0% { 
+		 transform:translate(0px);
+		-ms-transform:translate(0px);	/* IE 9 */
+		-moz-transform:translate(0px); 	/* Firefox */
+		-webkit-transform:translate(0px);/* Safari 和 Chrome */
+		-o-transform:translate(0px)
+	 }
+      50% { 
+       transform:translate(10px);
+        -ms-transform:translate(10px); /* IE 9 */
+        -moz-transform:translate(10px);    /* Firefox */
+        -webkit-transform:translate(10px);/* Safari 和 Chrome */
+        -o-transform:translate(10px) 
+     }
+      70% { 
+       transform:translate(5px);
+        -ms-transform:translate(5px); /* IE 9 */
+        -moz-transform:translate(5px);    /* Firefox */
+        -webkit-transform:translate(5px);/* Safari 和 Chrome */
+        -o-transform:translate(5px) 
+     }
+     
+     100% { 
+		 transform:translate(0px);
+        -ms-transform:translate(0px); /* IE 9 */
+        -moz-transform:translate(0px);    /* Firefox */
+        -webkit-transform:translate(0px);/* Safari 和 Chrome */
+        -o-transform:translate(0px)
+	 }
+	
+ }
+
+
+.l9 {
+    height: 26px;
+    width: 54px;
+    border: 10px solid;
+    margin-top: 74px;
+    margin-left: 200px;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+	
+	-webkit-animation: showArrow 1s linear infinite;
+    -o-animation: showArrow 1.5s linear infinite;
+    animation: showArrow 1.5s linear infinite;
+    z-index: 100;
+}
+
+.l10 {
+    height: 26px;
+    width: 54px;
+    border: 10px solid;
+    margin-top: -47px;
+    margin-left: 37px;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+	
+	-webkit-animation: showArrow 1s linear infinite;
+    -o-animation: showArrow 1.5s linear infinite;
+    animation: showArrow 1.5s linear infinite;
+    z-index: 100;
+}
+
+.l11 {
+    height: 26px;
+    width: 54px;
+    margin-top: -63px;
+    margin-left: 117px;
+    border: 10px solid;
+}
+
+.l12 {
+    height: 95px;
+    width: 126px;
+    border: 10px solid;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 62px;
+    margin-top: -136px;
+    margin-left: 180px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.l21 {
+    height: 95px;
+    width: 22px;
+    border: 4px solid;
+    margin-top: -192px;
+    margin-left: 123px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.l22 {
+    height: 22px;
+    width: 126px;
+    border: 4px solid;
+    margin-top: -103px;
+    margin-left: 136px;
+    border-top-color: transparent;
+    /* border-left-color: transparent; */
+    border-right-color: transparent;
+    border-bottom-color: transparent
+}
+
+.l23 {
+    -webkit-transform: rotateZ(111deg);
+    height: 22px;
+    width: 23px;
+    border: 10px solid;
+    border: 4px solid;
+    margin-top: -36px;
+    margin-left: 123px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.l24 {
+	-webkit-transform: rotateZ(69deg);
+    height: 22px;
+    width: 25px;
+    border: 10px solid;
+    border: 4px solid;
+    margin-top: -19px;
+    margin-left: 131px;
+    /* border-top-color: transparent; */
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.l25 {
+
+   width: 6px;
+    border: 10px solid;
+    border: 4px solid;
+    margin-top: -20px;
+    margin-left: 148px;
+    /* border-top-color: transparent; */
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.l26 {
+	-webkit-transform: rotateZ(61deg);
+    width: 27px;
+    border: 10px solid;
+    border: 4px solid;
+    margin-top: -11px;
+    margin-left: 159px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.l27 {
+ -webkit-transform: rotateZ(125deg);
+    width: 27px;
+    border: 10px solid;
+    border: 4px solid;
+    margin-top: -11px;
+    margin-left: 158px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.l28 {
+	height: 22px;
+    width: 126px;
+    border: 10px solid;
+    border: 4px solid;
+    margin-top: -17px;
+    margin-left: 192px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}

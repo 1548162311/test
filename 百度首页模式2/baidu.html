@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- <html xmlns="http://www.w3.org/1999/xhtml"> -->
+<html lang="EN" id="wrapperdiv" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>百度一下，你就知道</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body >
+    <div class="wrapper" >
+        <header>
+            <nav>
+                <a href="http://news.baidu.com">新闻</a>
+                <a href="http://www.hao123.com">hao123</a>
+                <a href="http://map.baidu.com">地图</a>
+                <a href="http://v.baidu.com">视频</a>
+                <a href="http://tieba.baidu.com">贴吧</a>
+                <!-- <a href="https://passport.baidu.com/v2/?login&tpl=mn&u=https%3A%2F%2Fwww.baidu.com%2F">登录</a> -->
+                <a href="#" id="login">登录</a>
+                <a href="http://www.baidu.com/gaoji/preferences.html" name="tj_settingicon" class="pf">设置</a>
+                <!-- <a href="http://www.baidu.com/more/" name="tj_briicon" class="bri" id="more">更多产品</a> -->
+                <div class="briadd" id="brimore">
+                     <a href="#" name="tj_briicon" class="bri" id="more">更多产品</a>
+                <div class="MoreChoce" id="moreChice" >
+                    <a href="http://music.baidu.com" target="_blank"><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/music.png?v=md5">音乐</a>
+                    <a href="http://image.baidu.com" target="_blank"><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/image.png?v=md5">图片</a>
+                    <a href="http://zhidao.baidu.com" target="_blank"><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/zhidao.png?v=md5">知道</a>
+                    <a href="http://wenku.baidu.com" target="_blank"><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/wenku.png?v=md5">文库</a>
+                    <a href="http://top.baidu.com" target="_blank"><img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/topnav/bang.png?v=md5">风云榜</a>
+                    <div class="s_bdbrievenmore"><a href="http://www.baidu.com/more/" target="_blank">全部产品&gt;&gt;</a></div>
+                </div>
+                </div>
+               
+            </nav>
+            </nav>
+        </header>
+    </div>
+    <div class="content">
+        <img id="s_lg_img" src="img/bd_logo1.png" alt="百度一下">
+        <form id="form" action="https://www.baidu.com/s" method="get" target="_blank">
+            <span class="bg_s_ipt_wr">
+            <input type="text" name="wd" class="input" maxlength="255" autocomplete="off">
+            </span>
+            <span class="bg_s_btn_wr">
+            <button type="submit" class=bg_s_btn>百度一下</button>
+             </span>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="loginMode" style="display: none;">
+            <div class="tabHead">
+                <ul id="tabfirst">
+                    <li class="tabin">我的关注</li>
+                    <li>推荐</li>
+                    <li>导航</li>
+                    <li>视频</li>
+                    <li>购物</li>
+                </ul>
+
+            </div>
+            <div class="tabBody">
+                <div class="tabContent tabAll">
+                    内容1
+                </div>
+                <div class="tabAll">
+                    内容2
+                </div>
+
+                <div class="tabAll">
+                    内容3
+                </div>
+                <div class="tabAll">
+                    内容4
+                </div>
+                <div class="tabAll">
+                    内容5
+                </div>
+                <div class="btntop" id="topbtn">
+                    回到顶部
+                </div>
+            </div>
+
+        </div>
+        <div id="qrcode">
+            <div id="qrcode_item">
+                <img src="img/zbios_efde696.png" class="image">
+                <div class="qrcode_text">
+                    <p class="item1">
+                        手机百度
+                    </p>
+                    <p>
+                        快人一步
+                    </p>
+                </div>
+            </div>
+            <div id="qrcode_item2">
+                <img src="img/nuomi_365eabd.png" class="image">
+                <div class="qrcode_text">
+                    <p class="item1">
+                        百度糯米
+                    </p>
+                    <p>
+                        一元大餐
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="conft">
+            <p id="lh">
+                <a href="http://www.baidu.com/cache/sethelp/index.html">把百度设为主页</a>
+                <a href="http://home.baidu.com/">关于百度</a>
+                <a href="http://ir.baidu.com/">About Baidu</a>
+                <a href="http://e.baidu.com/?refer=888">百度推广</a>
+            </p>
+            <p id="cp">
+                <span>©2015 Baidu</span>
+                <a href="">使用百度前必读</a>
+                <a href="">京ICP证030173号</a>
+
+            </p>
+            <p id="jp">
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001">京公网安备11000002000001号</a>
+            </p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

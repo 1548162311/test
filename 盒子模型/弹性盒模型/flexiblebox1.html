@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    	.container{
+			display: -webkit-flex;
+			/*-webkit-flex-direction: column;*/
+    	}
+
+        .first {
+            height: 100px;
+            -webkit-flex:1;
+            -webkit-order:3;
+            background: orange;
+        }
+        
+        .second {
+            height: 100px;
+            -webkit-flex:1;
+            -webkit-order:1;
+            background-color: aquamarine;
+        }
+        
+        .thrid {
+            height: 100px;
+            background-color: green;
+            -webkit-flex:1;
+            -webkit-order:2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first">第一个div</div>
+        <div class="second">第二个div</div>
+        <div class="thrid">第三个div</div>
+    </div>
+
+
+</body>
+
+</html>

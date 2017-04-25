@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>hao123首页</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/res/img/richanglogo168_24.png"/>
+		</div>
+	
+		<div class="hao123-col">
+			<div class="colweather">
+				<a href="#" class="colweahter-city">
+					<span class="weahtercity-name">南京</span>
+					<span class="weahtercity-arrow"></span>
+				</a>
+				<a href="http://www.baidu.com/s?word=%E5%8D%97%E4%BA%AC%E5%A4%A9%E6%B0%94&amp;tn=50000030_hao_pg&amp;ie=utf-8" class="colweahter-info">
+					<span class="weahterinfo-icon"></span>
+					<span class="weahterinfo-txt">多云</span>
+					<span class="weahterinfo-temperature">10 ~ 3℃</span>
+				</a>
+				<a href="http://www.weather.com.cn/weather/101190101.shtml#7d" class="colweahter-link">
+					<span class="weahterlink-icon"></span>
+				</a>
+			</div>
+			<div class="colcalendar">
+				<div class="colcalendar-info">
+					<a href="https://www.baidu.com/s?word=2017%E5%B9%B41%E6%9C%8827%E6%97%A5&amp;tn=sitehao123_11_pg&amp;ie=utf-8" class="cal-link">
+						<span class="calendarinfo-month">1月27日</span>
+						<span class="calendarinfo-day">周五</span>
+					</a>			
+					<a href="http://www.baidu.com/s?word=%E9%99%A4%E5%A4%95&amp;tn=sitehao123_11_pg&amp;ie=utf-8" class="holiday-link">除夕</a>
+				</div>
+			</div>
+			<div class="hao123-star">
+				<a href="http://www.hao123.com/xingzuonew.html" class="star-link">星座运势</a>
+			</div>
+		</div>
+		<div class="hao123-links">
+			<div class="loginlink">
+				<a href="#" class="g_icon">登录</a>
+			</div>
+			<span class="header-pan">
+				<a class="pan" data-platindex="0" alog-text="网盘" href="https://pan.baidu.com/">网盘</a>
+			</span>
+			<div class="mail">
+				<a class="mailtrriger" href="#"><span class="text" style="margin:0">邮箱</span></a>
+			</div>
+		</div>
+	</div>
+	<div class="search">
+		<div class="hao123-search-panel">
+			<div class="hao123-search">
+				<div class="searchs">
+					<div class="leftlogo">
+					<a class="link-hook" title="百度首页" href="http://www.baidu.com/?tn=98395732_hao_pg">
+					<span class="color"></span></a>
+					</div>
+					<a href="#" class="tabs-toggle" hidefocus="true"><i class="arrow"></i><span class="tab-curr">网页</span></a>
+					<div class="right">
+						<form class="form-hook" action="https://www.baidu.com/s" target="_blank">
+							<div class="input-wrapper">
+								<div class="input-shadow">
+									<input class="input-hook" type="text" autocomplete="off" maxlength="100" name="word" placeholder="搜你想搜的">
+								</div>
+							</div>
+							<div class="button-wrapper"><input class="button-hook" type="submit" value=""></div>
+						</form>
+					</div>
+				</div>
+				<div class="btn">
+					<button onclick="ChangeYellow()">黄色</button>
+					<button onclick="ChangeBlue()">蓝色</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hotSearch">
+		<div class="hotsearch-box">
+			<div class="hotsearchtop">
+				<ul class="boxhot">
+					<li class="title">
+						<a href="http://www.hao123.com/top" class="hotsearch-link" title="热搜"></a>
+					</li>
+					<li class="text">
+						<a class="js-hotword" hidefocus="true" href="http://www.baidu.com/s?word=%E5%8D%97%E4%BA%AC%E5%A4%A9%E6%B0%94&amp;tn=sitehao123_10_pg&amp;ie=utf-8" data-lu="link">南京天气</a>
+					</li>
+					<li class="text">
+						<a  class="js-hotword" hidefocus="true" href="http://www.baidu.com/s?word=%E8%8B%B1%E8%B6%85&amp;tn=sitehao123_10_pg&amp;ie=utf-8" data-lu="link">英超</a>
+					</li>
+					<li class="text">
+						<a class="js-hotword" hidefocus="true" href="http://www.baidu.com/s?word=%E6%98%A5%E8%8A%82%E6%97%85%E6%B8%B8&amp;tn=sitehao123_10_pg&amp;ie=utf-8" data-lu="link">春节旅游</a>
+					</li>
+					<li class="text">
+						<a class="js-hotword" style="color:red" hidefocus="true" href="http://www.baidu.com/s?word=%E6%98%A5%E6%99%9A%E5%BC%BA%E5%A4%A7%E9%98%B5%E5%AE%B9&amp;tn=sitehao123_10_pg&amp;ie=utf-8" data-lu="link">春晚强大阵容</a>
+					</li>
+					<li class="text">
+						<a class="js-hotword" hidefocus="true" href="http://www.baidu.com/s?word=%E5%88%98%E6%81%BA%E5%A8%81%E7%8E%8B%E9%B8%A5%E5%90%8C%E6%A1%86&amp;tn=sitehao123_10_pg&amp;ie=utf-8" data-lu="link">刘恺威王鸥同框</a>
+					</li>
+					<li class="text">
+						<a class="js-hotword"  hidefocus="true" href="http://www.baidu.com/s?word=%E9%99%88%E5%86%A0%E5%B8%8C%E5%BD%93%E7%88%B8&amp;tn=sitehao123_10_pg&amp;ie=utf-8" data-lu="link">陈冠希当爸</a>
+					</li>
+					<li class="text">
+						<a class="js-hotword" hidefocus="true" href="http://www.baidu.com/s?word=%E8%B5%B5%E8%96%87%E6%99%92%E5%B9%B4%E4%BC%9A%E7%85%A7&amp;tn=sitehao123_10_pg&amp;ie=utf-8" data-lu="link">赵薇晒年会照</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="menu-wrap">
+			<ul class="menus-br" id="listHead">
+				<li class="menu first">
+					<a class="link active" href="http://www.hao123.com/" target="_self">
+					<span class="title">首页</span>
+					<span class="menu-split"></span>
+					</a>
+				
+				</li>
+				<li class="menu">
+					<a class="link" href="/api/ajax?menu=tv_kp&amp;tn=96628239_hao_pg"><span class="title">电视剧</span><span class="menu-split"></span></a>
+				</li>
+				<li class="menu">
+					<a class="link" href="/api/ajax?menu=movie_kp&amp;tn=96628239_hao_pg"><span class="title">最新电影</span><span class="menu-split"></span>
+					</a>
+				</li>
+				<li class="menu">
+					<a class="link" href="/api/ajax?menu=news_kp&amp;tn=96628239_hao_pg"><span class="title">新闻头条</span><span class="menu-split"></span></a>
+				</li>
+				<li class="menu">
+					<a class="link" href="/api/ajax?menu=bagua_kp&amp;tn=96628239_hao_pg"><span class="title">八卦娱乐</span><span class="menu-split"></span></a>
+				</li>
+				<li class="menu">
+					<a class="link" href="/api/ajax?menu=military_kp&amp;tn=96628239_hao_pg"><span class="title">军事热点</span><span class="menu-split"></span></a>
+				</li>
+				<li class="menu">
+					<a class="link" href="/api/ajax?menu=game_kp&amp;tn=96628239_hao_pg"><span class="title">热门游戏</span><span class="menu-split"></span></a>
+				</li>
+				<li class="menu">
+					<a class="link" href="/api/ajax?menu=xyx_kp&amp;tn=96628239_hao_pg"><span class="title">小 游 戏</span><span class="menu-split"></span></a>
+				</li>
+				<li class="menu">
+					<a class="link" href="/api/ajax?menu=tejia_kp&amp;tn=96628239_hao_pg"><span class="title">今日特价</span><span class="menu-split"></span></a>
+				</li>
+				<li class="menu">
+					<a class="link" href="/api/ajax?menu=travel_kp&amp;tn=96628239_hao_pg"><span class="title">特价旅游</span><span class="menu-split"></span></a>
+				</li>
+				<li class="menu">
+					<a class="link" href="/api/ajax?menu=life_kp&amp;tn=96628239_hao_pg"><span class="title">无锡生活</span><span class="menu-split"></span></a>
+				</li>
+			</ul>
+		</div>
+		<div class="govsite-top">
+			<div class="govsite-inner"><span class="title g-ib">权威推荐</span><span class="title-line g-ib"></span>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://www.people.com.cn/">人民网</a>
+				</div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://www.xinhuanet.com/">新华网</a>
+				</div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://www.cctv.com/">央视网</a>
+				</div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://www.cri.cn/">国际在线</a>
+				</div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://cn.chinadaily.com.cn/">中国日报网</a>
+				</div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://www.china.com.cn/">中国网</a>
+				</div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://www.ce.cn/">中国经济网</a>
+				</div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://www.gmw.cn/">光明网</a>
+				</div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://www.cnr.cn/">央广网</a>
+				</div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://www.qstheory.cn/">求是网</a>
+				</div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib" href="http://www.youth.cn/">中国青年网</a></div>
+				<div class="govsite-item g-ib">
+					<a class="govsite-link g-ib " href="http://www.cac.gov.cn/">中国网信网</a>
+				</div>
+			</div>
+		</div>
+		<div class="layout-content-ct g_clr">
+			<div class="layout-famoussite hao123-famoussite sbr-21 g-bg5">
+				<ul class="js_bd site-bd  site-hd0">
+					<li class="js_site-item g-ib site-item site-item-normal site-item-hassub" style="position: relative">
+						<a hidefocus="true" cls="qt,n" href="http://www.baidu.com/?tn=sitehao123_15" data-title="百度" style="background:url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/res/img/defaultIcon1229.png) no-repeat  2px -198px;" class="js_text sitemainlink " alog-custom="ind:qt,sal:0">百度</a>
+						&nbsp;•&nbsp;
+						<a href="https://www.baidu.com/s?word=%E7%99%BE%E5%BA%A6%E8%B4%B4%E5%90%A7&amp;tn=sitehao123_16" cls="qt,n" class="sitesublink " style="" alog-custom="ind:qt,sal:0">贴吧</a>
+					</li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+		<div class="layout-content-slider"></div>
+
+</body>
+</html>
